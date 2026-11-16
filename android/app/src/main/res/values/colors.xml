@@ -1,0 +1,6 @@
+<resources>
+    <color name="pitchlab_bg">#05090B</color>
+    <color name="pitchlab_dialog">#0D1518</color>
+    <color name="pitchlab_accent">#55E3B6</color>
+    <color name="pitchlab_icon_bg">#071014</color>
+</resources>

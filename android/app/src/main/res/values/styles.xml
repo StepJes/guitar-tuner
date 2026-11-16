@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Fixed dark instrument-panel theme. The original is dark in all configurations. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@color/pitchlab_bg</item>
+        <item name="android:navigationBarColor">@color/pitchlab_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:colorAccent">@color/pitchlab_accent</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="PitchLabDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/pitchlab_dialog</item>
+        <item name="android:colorAccent">@color/pitchlab_accent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.72</item>
+    </style>
+</resources>
